@@ -1,0 +1,41 @@
+{
+  "name": "sync-calendar",
+  "version": "1.0.0",
+  "description": "challenge \u001b[ing synchronizing google calendar",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DreamerKing/sync-calendar.git"
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "DreamerKing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DreamerKing/sync-calendar/issues"
+  },
+  "homepage": "https://github.com/DreamerKing/sync-calendar#readme",
+  "dependencies": {
+    "fullcalendar": "^3.9.0",
+    "fullcalendar-scheduler": "^1.9.4",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-include-assets-plugin": "^1.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
